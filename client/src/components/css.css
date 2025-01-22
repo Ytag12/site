@@ -1,0 +1,273 @@
+/* head and main*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+body{
+    margin: 0px;
+}
+.mainInfo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: #224BB4;
+}
+.inputsLog{
+    text-align: center;
+}
+.inputsLog>div{
+    display: flex;
+    flex-direction: column;
+}
+.inputsLog>div>input{
+    background: #f7f7f7;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.enter{
+    padding: 7px 10px 7px 10px;
+    background-color: black;
+    border: 1px;
+    color: white;
+    border-radius: 19px;
+}
+.night{
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+    background-color: black;
+    border: 1px;
+    color: white;
+    border-radius: 19px;
+}
+.name{
+    margin-bottom: 5px;
+}
+.password{
+    margin-bottom: 5px;
+}
+.titleHead>h1{
+    font-family: "Lateef", serif;
+    font-size: 96px;
+    color: white;
+    margin: auto;
+}
+.titleHead{
+    display: flex;
+    align-items: center;
+}
+.titleHead>img{
+    width: 70px;
+    height: 70px;
+}
+/* buttons under head */
+.likeButtons{
+    display: flex;
+}
+.mainPage{
+    font-weight: 700;
+}
+.likeButtons>a{
+    font-size: 24px;
+    border: 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    width: 20%;
+    text-align: center;
+}
+/* main */
+main{
+    background-image: url(.//images/tile_background.png);
+    background-size: 1000px;
+    display: table;
+    width: 100%;
+}
+main>div{
+    background-color: white;
+    width: 70%;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+main>div>p{
+    padding: 50px 40px 9px 40px;
+}
+main>div>.line{
+    border-top: 2px solid;
+}
+main>div>article>img{
+    width: 45%;
+    height: 70%;
+    padding-right: 10px;
+    border-radius: 500px;
+}
+.forumes>img{
+    width: 45%;
+    height: 70%;
+    padding-right: 10px;
+    border-radius: 500px;
+}
+.forumes{
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 175px;
+    padding: 5px 10px 5px 10px;
+    margin: 30px 40px 10px 40px;
+    border-radius: 30px;
+}
+main>div>article{
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 175px;
+    padding: 5px 10px 5px 10px;
+    margin: 30px 40px 10px 40px;
+    border-radius: 30px;
+}
+/* footer */
+footer{
+    background-color: #180067;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.aboutUs>p{
+    font-size: 16px;
+}
+.aboutUs>a{
+    font-size: 24px;
+}
+.aboutUs>img{
+    margin-top: 15px;
+}
+.weAreHere>p{
+    font-size: 24px;
+}
+/* contacnts */
+main>.con{
+    text-align: center;
+    padding: 110px 0px 110px 0px;
+    font-size: 64px;
+}
+/* about us */
+.imgUs{
+    color: black;
+}
+/* Add forum */
+.addForumForm{
+    padding: 0px 40px 0px 40px;
+}
+.addForumForm>p{
+    margin-left: 10%;
+}
+.conteiner{
+    display: flex;
+}
+.description{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.addImage{
+    text-align: center;
+    align-items: center;
+    padding: 30px 20px 30px 20px;
+    border-radius: 500px;
+    border: none;
+    font-size: 12px;
+    font-weight: 900;
+    color: gray;
+    background-color: #D9D9D9;
+}
+.titleForm{
+    padding: 25px 350px 25px 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #D9D9D9;
+    background-color: #D9D9D9;
+}
+.decrp{
+    padding: 25px 350px 200px 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #D9D9D9;
+    background-color: #D9D9D9;
+}
+.CreateDiv{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.Create{
+    background-color: #D9D9D9;
+    border-color: black;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 2% 5% 2% 5%;
+}
+/* chat */
+.chat{
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+}
+.chat-messages{
+    border: 5px solid;
+    border-radius: 60px;
+    text-align: left;
+    padding: 25% 30% 1% 3%;
+    margin-bottom: 20px;
+    background-color: #D9D9D9;
+}
+.chat-form__input{
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    border: 1px solid;
+    padding: 5px 50% 5px 10px;
+}
+.chat-form__submit{
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    border: 1px solid;
+    padding: 5px 10px 5px 10px;
+}
+
+.upperA{
+    color: black;
+    text-decoration: none;
+}
+.upperA:visited{
+    color: black;
+}
+.enterButton{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #224BB4;
+    padding: 4px;
+    border-radius: 50px;
+    width: 50px;
+}
+.enterButton:hover{
+    animation-duration: 15s;
+    color: black;
+    background-color: aqua;
+}
+.forums-list>h2{
+    text-align: center;
+}
+.forumes>img{
+    width: 200px;
+}
